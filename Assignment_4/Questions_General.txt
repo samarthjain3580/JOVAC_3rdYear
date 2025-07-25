@@ -1,0 +1,21 @@
+Answer the following in brief (2–4 sentences each):
+
+Qns.1 What are the assumptions of linear regression?
+Ans.1 Linear regression assumes a linear relationship between independent and dependent variables. It is Independent of errors.
+It have No multicollinearity among predictors.
+
+Qns.2 When should you use logistic regression instead of linear regression?
+Ans.2 Use logistic regression when the target variable is categorical, especially binary (e.g., yes/no, 0/1). 
+Linear regression is not suitable for classification tasks as it predicts continuous values and doesn’t constrain outputs between 0 and 1
+
+Qns.3 What is the interpretation of coefficients in logistic regression?
+Ans.3 In logistic regression, each coefficient represents the log odds change in the outcome for a one-unit increase in the corresponding feature,
+holding other features constant. Exponentiating the coefficient gives the odds ratio, indicating how the odds of the positive class change.
+
+Qns.4 What is the difference between sigmoid and softmax functions?
+Ans.4 The sigmoid function outputs a probability between 0 and 1 for binary classification, while the softmax function outputs a 
+probability distribution across multiple classes for multiclass classification. Softmax ensures all probabilities sum to 1.
+
+Qns.5 Why is R-squared not suitable for evaluating logistic regression models?
+Ans.5 R-squared measures the proportion of variance explained in linear regression and is not meaningful for logistic regression, 
+which deals with classification, not continuous output. Instead, metrics like accuracy, AUC, F1-score, and log-loss are used.
